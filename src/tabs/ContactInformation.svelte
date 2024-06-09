@@ -1,0 +1,208 @@
+<script>
+	import InformationTag from "../components/InformationTag.svelte";
+
+</script>
+
+<div class="container">
+    <h1>Event Details</h1>
+
+    <div class="cover"></div>
+    <p class="event-name">Drive in Senja: Back to the Future</p>
+    <p class="event-place">
+        <svg id="Location"width="16px" height="16px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <title>Iconly/Bold/Location</title>
+            <g id="Iconly/Bold/Location" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Location" transform="translate(3.500000, 2.000000)" fill="#999" fill-rule="nonzero">
+                    <path d="M8.49344564,0 C13.1561184,0 17,3.71789185 17,8.31775805 C17,10.6356906 16.1570081,12.787628 14.7695,14.611575 C13.2388042,16.6235165 11.3521561,18.3764655 9.22854262,19.7524254 C8.74251142,20.0704162 8.3038733,20.0944155 7.77044902,19.7524254 C5.63473516,18.3764655 3.74808708,16.6235165 2.23050003,14.611575 C0.84198351,12.787628 0,10.6356906 0,8.31775805 C0,3.71789185 3.84388161,0 8.49344564,0 Z M8.49344564,5.77683196 C6.95165787,5.77683196 5.6942286,7.04779499 5.6942286,8.57675052 C5.6942286,10.1177057 6.95165787,11.3296704 8.49344564,11.3296704 C10.0362418,11.3296704 11.3057714,10.1177057 11.3057714,8.57675052 C11.3057714,7.04779499 10.0362418,5.77683196 8.49344564,5.77683196 Z"></path>
+                </g>
+            </g>
+        </svg>
+    Partizanska Cesta 13</p>
+    <p class="event-date">
+<svg id="Calendar"width="16px" height="16px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Iconly/Bold/Calendar</title>
+    <g id="Iconly/Bold/Calendar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Calendar" transform="translate(3.000000, 2.000000)" fill="#999" fill-rule="nonzero">
+            <path d="M12.6496583,2.25524422e-06 C13.0742093,-0.000994978687 13.4099008,0.32883983 13.4108881,0.768619575 L13.4108881,0.768619575 L13.4118754,1.51824414 C16.1665203,1.73413601 17.9861656,3.61119592 17.9891276,6.48975425 L17.9891276,6.48975425 L17.9999941,14.9155344 C18.0039375,18.0539625 16.0322437,19.9849954 12.8718071,19.9899929 L12.8718071,19.9899929 L5.15189025,20.0000023 C2.0112002,20.0039859 0.0148231956,18.0269761 0.010873884,14.8795524 L0.010873884,14.8795524 L6.62739655e-06,6.55272272 C-0.00393603445,3.6551739 1.75153297,1.78311149 4.5061778,1.53023813 L4.5061778,1.53023813 L4.50519047,0.780613568 C4.50420314,0.340833823 4.83002135,0.00999951493 5.26444563,0.00999951493 C5.6988699,0.00900001551 6.02468811,0.338834824 6.02567543,0.778614569 L6.02567543,0.778614569 L6.02666276,1.47826416 L11.8913905,1.47026817 L11.8904031,0.770618574 C11.8894158,0.330838829 12.215234,0.00100402015 12.6496583,2.25524422e-06 Z M13.0524881,14.1918968 L13.0426148,14.1918968 C12.588444,14.2028913 12.22412,14.5837006 12.2339933,15.0434703 C12.2349806,15.50324 12.6012792,15.8820503 13.0554501,15.8920453 C13.5185068,15.8910458 13.8936914,15.5102365 13.8927061,15.0404718 C13.8927061,14.5707071 13.5165322,14.1918968 13.0524881,14.1918968 L13.0524881,14.1918968 Z M4.91690621,14.1928941 C4.46273537,14.2128863 4.10729733,14.5936956 4.10828261,15.0534653 C4.12901854,15.513235 4.50420314,15.8730548 4.95837398,15.8520653 C5.40365886,15.8320753 5.75810957,15.4512661 5.73737569,14.9914963 C5.72750241,14.5417216 5.36120376,14.1918968 4.91690621,14.1928941 Z M8.98469714,14.1878967 C8.53052631,14.2088883 8.1760756,14.5886981 8.1760756,15.0484678 C8.19680948,15.5082375 8.57199408,15.8670578 9.02616491,15.8470678 C9.47046247,15.8260783 9.82590051,15.4462686 9.80516663,14.9854993 C9.79529335,14.5367241 9.4289947,14.1868993 8.98469714,14.1878967 Z M4.91196957,10.5946962 C4.45779873,10.6146884 4.10334802,10.9954976 4.10433329,11.4552674 C4.1240819,11.9150371 4.50025383,12.2748569 4.95442467,12.2538674 C5.39872222,12.2338774 5.75317294,11.8530681 5.73243905,11.3932984 C5.72256577,10.9435237 5.35725445,10.5936989 4.91196957,10.5946962 Z M8.98074783,10.5597138 C8.526577,10.5797059 8.17113896,10.9605152 8.17212423,11.4202849 C8.19187284,11.8800546 8.56804477,12.2388749 9.0222156,12.2188849 C9.46651316,12.1978954 9.82096387,11.8180857 9.80121731,11.3583159 C9.79035671,10.9085412 9.42504539,10.5587164 8.98074783,10.5597138 Z M13.0485388,10.5647113 C12.5943679,10.5747084 12.2389299,10.9445232 12.2399152,11.4042929 L12.2399152,11.4042929 L12.2399152,11.4152874 C12.2497905,11.8750571 12.6249751,12.2238824 13.0801333,12.2138874 C13.5244308,12.2028929 13.8788815,11.8220837 13.8690083,11.3623139 C13.8482744,10.9225342 13.491849,10.5637139 13.0485388,10.5647113 Z M11.8933651,3.00949727 L6.02863742,3.01749327 L6.02962475,3.8260883 C6.02962475,4.25687255 5.70479387,4.59670235 5.27036959,4.59670235 C4.83594532,4.59770185 4.50913978,4.25887155 4.50913978,3.8280873 L4.50913978,3.8280873 L4.50815246,3.05847275 C2.58286306,3.25137613 1.51753626,4.38280948 1.52049208,6.55072372 L1.52049208,6.55072372 L1.52148557,6.86156804 L16.4696299,6.84157805 L16.4696299,6.49175325 C16.4271748,4.3428295 15.3490128,3.21539415 13.4138501,3.04747825 L13.4138501,3.04747825 L13.4148374,3.81709281 C13.4148374,4.24687756 13.0801333,4.58770686 12.6555823,4.58770686 C12.221158,4.58870636 11.8943525,4.24887655 11.8943525,3.8190918 L11.8943525,3.8190918 L11.8933651,3.00949727 Z"></path>
+        </g>
+    </g>
+</svg>
+1.2.2025
+    </p>
+
+    <div class="order-information">
+        <p class="heading">Order Summary</p>
+        <div class="total-tickets">
+            <p>Ticket Type</p>
+            <p class="ticket-count">4 x Basic</p>
+        </div>
+        <div class="total">
+            <p>Total</p>
+            <p class="total-price">100.00€</p>
+        </div>
+    </div>
+
+    <InformationTag/>
+
+    <h1>Buyer Contact Information</h1>
+
+    <form action="POST" class="contact-information">
+        <label for="input">First Name</label>
+        <input type="text" placeholder="Rick">
+        <label for="input">Last Name</label>
+        <input type="text" placeholder="Morgan">
+        <label for="input">Email Address</label>
+        <input type="text" placeholder="rickmorgan@gmail.com">
+        <label for="input">Confirm email address</label>
+        <input type="text" placeholder="rickmorgan@gmail.com">
+        <label for="input">Phone Number</label>
+        <input type="text" placeholder="+38669743932">
+        <button class="to-payment-btn">Continue to Payment</button>
+    </form>
+</div>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+
+        box-sizing: border-box;
+    }
+
+    .container{
+        height: auto;
+        width: 100%;
+
+        background-color: #fff;
+
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        padding: 16px;
+
+        overflow: auto;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .event-name{
+        font-weight: 500;
+    }
+
+    .event-place, .event-date{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        margin-top: -8px;
+    }
+
+    .cover{
+        height: 120px;
+        width: 100%;
+
+        border-radius: 10px;
+
+        background-image: url("cover-test.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        outline: 1px solid #dcdcdc;
+    }
+
+    .order-information{
+        border-top: 2px dashed #f3f3f3;
+
+        padding: 8px 0;
+
+        height: max-content;
+        width: 100%;
+    }
+
+    .order-information .heading{
+        font-size: 16px;
+
+        font-weight: 500;
+    }
+
+    .total-tickets{
+        border-top: none;
+
+        padding: 16px 0;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        border-bottom: 2px dashed #f3f3f3;
+    }
+
+    .total p{
+        font-size: 14px;
+    }
+
+    .total-tickets .ticket-count{
+        font-weight: 500;
+    }
+
+    .total{
+        height: max-content;
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 16px 0;
+    }
+
+    .total .total-price{
+        font-weight: 500;
+    }
+
+    .contact-information{
+        height: max-content;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-information label{
+        margin-top: 16px;
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+
+    .contact-information label:first-child{
+        margin-top: 0;
+    }
+
+    .contact-information input{
+        height: 32px;
+
+        border: none;
+        outline: 1px solid #dcdcdc;
+        border-radius: 5px;
+
+        padding-left: 8px;
+    }
+
+    .to-payment-btn{
+        margin-top: 24px;
+
+        height: 40px;
+        width: 100%;
+
+        border: none;
+        outline: none;
+
+        background-color: #252525;
+        color: #fff;
+
+        border-radius: 5px;
+    }
+</style>

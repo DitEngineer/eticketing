@@ -61,12 +61,16 @@
 		height: 120px;
 		width: 100%;
 
-		background-color: #252525;
+		background-image: url("cover-test.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		border-radius: 5px;
 	}
 
 	.heading-area p {
 		font-weight: 500;
+		color: #000;
 	}
 
 	.wrapper {

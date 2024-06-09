@@ -4,6 +4,7 @@
 	import CategoryToggle from '../components/CategoryToggle.svelte';
 	import Suggested from '../components/Suggested.svelte';
 	import TabToggler from '../components/TabToggler.svelte';
+	import LocationSuggestion from '../components/LocationSuggestion.svelte';
 </script>
 
 <div class="container">
@@ -12,7 +13,7 @@
 	<SearchBar />
 	<CategoryToggle />
 	<Suggested />
-	<Suggested />
+	<LocationSuggestion/>
 	<Suggested />
 
 	<TabToggler />
@@ -45,6 +46,11 @@
 	.ad {
 		height: 120px;
 		width: 100%;
+
+		background-image: url("cover-test3.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 
 		border-radius: 10px;
 
