@@ -8,5 +8,10 @@
 		border-radius: 50%;
 
 		outline: 1px solid #dcdcdc;
+
+		background-image: url("profilepic.webp");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 </style>

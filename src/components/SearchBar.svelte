@@ -27,7 +27,7 @@
 
 	.search-bar {
 		height: 32px;
-		width: 100%;
+		width: calc(100% - 40px);
 
 		background-color: #fbfbfb;
 

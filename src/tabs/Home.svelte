@@ -5,12 +5,16 @@
 	import Suggested from '../components/Suggested.svelte';
 	import TabToggler from '../components/TabToggler.svelte';
 	import LocationSuggestion from '../components/LocationSuggestion.svelte';
+	import Filter from '../components/Filter.svelte';
 </script>
 
 <div class="container">
 	<UserBar />
 	<div class="ad"></div>
-	<SearchBar />
+	<span class="search-area">
+		<SearchBar />
+	<Filter/>
+	</span>
 	<CategoryToggle />
 	<Suggested />
 	<LocationSuggestion/>
@@ -55,5 +59,14 @@
 		border-radius: 10px;
 
 		background-color: #252525;
+	}
+
+	.search-area{
+		height: max-content;
+		width: 100%;
+
+		display: flex;
+		justify-content: space-between;
+		gap: 8px;
 	}
 </style>

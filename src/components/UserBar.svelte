@@ -7,7 +7,7 @@
 
 	<div class="box">
 		<p>Good morning</p>
-		<p>User name</p>
+		<p>LilPasa</p>
 	</div>
 
 	<div class="quick-action">

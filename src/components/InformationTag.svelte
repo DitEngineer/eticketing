@@ -17,6 +17,9 @@
     .tag{
         height: max-content;
         width: 100%;
+
+        padding: 8px;
+        outline: 1px solid #dcdcdc;
         
         border-radius: 5px;
 

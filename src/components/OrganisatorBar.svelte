@@ -1,7 +1,7 @@
 <div class="wrapper">
 	<div class="icon"></div>
 	<div class="details">
-		<p class="name">Organisator name</p>
+		<p class="name">ThathcerJoe</p>
 		<p class="upcoming-events">6 upcoming events</p>
 	</div>
 	<button class="flw-btn">Follow</button>
@@ -40,7 +40,10 @@
 
 		border-radius: 50%;
 
-		background-color: #000;
+		background-image: url("profilepic2.webp");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	.details {
