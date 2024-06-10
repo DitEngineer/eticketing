@@ -46,7 +46,7 @@
 
 	.head-text{
 		color: #000;
-		font-size: 16px;
+		font-size: 20px;
 
 		margin-bottom: -8px;
 	}

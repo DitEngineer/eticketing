@@ -3,7 +3,12 @@
 	import EventTab from '../tabs/Event.svelte';
 	import ContactInformationTab from '../tabs/ContactInformation.svelte';
 	import PaymentTab from "../tabs/Payment.svelte";
+	import SearchTab from '../tabs/Search.svelte';
+	import FavoritesTab from "../tabs/Favorites.svelte";
+	import NotificationsTab from '../tabs/Notifications.svelte';
 </script>
 
 <HomeTab/>
+
+
 

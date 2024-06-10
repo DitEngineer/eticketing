@@ -1,4 +1,8 @@
-<div class="search-bar">
+<script>
+	export let searchBarWidth="calc(100% - 40px)";
+</script>
+
+<div class="search-bar" style="width: {searchBarWidth};">
 	<svg
 		id="Search"
 		width="22px"
@@ -27,7 +31,6 @@
 
 	.search-bar {
 		height: 32px;
-		width: calc(100% - 40px);
 
 		background-color: #fbfbfb;
 
