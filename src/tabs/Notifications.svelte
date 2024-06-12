@@ -1,3 +1,7 @@
+<script>
+	import Notification from "../components/Notification.svelte";
+
+</script>
 <div class="container">
     <nav>
 		<button
@@ -23,8 +27,20 @@
 				/>
 			</svg></button
 		>
-		<h1 class="tab-name">Notifications</h1>
+		<h1>Notifications</h1>
+		<button>
+			<svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 0 128 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z"/></svg>
+		</button>
 	</nav>
+
+	<p class="date">21 November, 2024</p>
+	<Notification heading="Payment successful!" description="You have successfully made a payment."/>
+	<p class="date">21 November, 2024</p>
+	<Notification heading="Payment rejected!" description="Your payment has been rejected. Please try again."/>
+	<p class="date">21 November, 2024</p>
+	<Notification heading="All set up!" description="Welcome to eVenue!"/>
+	<p class="date">21 November, 2024</p>
+	<Notification heading="Email confirmation" description="In orderd to finish account creation, confirm your email."/>
 </div>
 
 <style>
@@ -39,7 +55,7 @@
 		height: auto;
 		width: 100%;
 
-		padding: 16px;
+		padding: 80px 16px 16px 16px;
 
 		background-color: #fff;
 
@@ -51,10 +67,18 @@
 		padding-bottom: 65px;
 	}
 
-    h1 {
+	h1{
 		font-size: 20px;
+		font-weight: 500;
 		color: #000;
 	}
+
+	.date{
+		font-size: 16px;
+		color: #999;
+		font-weight: 500;
+	}
+
 
 	nav {
 		position: fixed;
@@ -90,12 +114,5 @@
 		outline: 1px solid #dcdcdc;
 
 		background-color: #fff;
-	}
-
-	.tab-name{
-		position: absolute;
-		top: 16px;
-		left: 50%;
-		transform: translateX(-50%);
 	}
 </style>

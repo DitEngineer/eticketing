@@ -1,4 +1,9 @@
-<div class="user-icon"></div>
+<script>
+	export let height="36px";
+	export let width="36px";
+</script>
+
+<div class="user-icon" style="height: {height};width: {width};"></div>
 
 <style>
 	.user-icon {

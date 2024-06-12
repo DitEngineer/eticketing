@@ -6,9 +6,10 @@
 	import SearchTab from '../tabs/Search.svelte';
 	import FavoritesTab from "../tabs/Favorites.svelte";
 	import NotificationsTab from '../tabs/Notifications.svelte';
+	import ProfileTab from '../tabs/Profile.svelte';
 </script>
 
-<HomeTab/>
+<ProfileTab/>
 
 
 

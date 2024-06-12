@@ -83,6 +83,9 @@
 			</button>
 		</span>
 		<h1>Happy Holiday Music Concert Festival Indonesia Region</h1>
+		<p class="description">
+			The air buzzed with excitement as the Happy Holiday Music Concert Festival kicked off in Indonesia’s tropical paradise.
+		</p>
 		<InfoTag bgColor="transparent" padding="0" iconSize="18px" fontSize="14px" />
 		<OrganisatorBar />
 		<h4>Available tickets</h4>
@@ -186,6 +189,10 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	.description{
+		color: #999;
 	}
 
 	.fvt-btn {
